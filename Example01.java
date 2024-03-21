@@ -1,14 +1,14 @@
-package example;
+package array;
 
 public class Example01 {
 
 	public static void main(String[] args) {
-		System.out.println("     *     ");
-		System.out.println("    ***    ");
-		System.out.println("   *****   ");
-		System.out.println("  *******  ");
-		System.out.println(" ********* ");
-		System.out.println("***********");
+		int [] myArr = {10, 20, 30, 40, 50};
+
+		for(int i = 0; i < 5; i++) 
+			System.out.print(myArr[i] + " ");
+			
+			System.out.println();
 
 	}
 
